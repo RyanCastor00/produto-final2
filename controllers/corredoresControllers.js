@@ -17,7 +17,7 @@ exports.createCorredor = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-};
+}
 
 exports.updateCorredor = async (req, res) => {
   try {
